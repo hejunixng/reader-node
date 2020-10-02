@@ -375,7 +375,7 @@ app.get('/book/list', (req, res) => {
             total: results.length
           })
         }
-        conn.end()
+        conn.end();
       })
   })
 //   搜索列表
