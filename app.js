@@ -145,7 +145,9 @@ app.get('/book/home',(req,res)=>{
     const conn = connect();
     // 筛选 封面不为空的
     conn.query('select * from book where cover != \'\'',(err,results)=>{
-        const length = results.length;
+        // console.log(results);
+      const length = results.length;
+
         const guessYouLike = [];
         const banner = constant.resUrl + '/home_banner.jpg';
         const recommend = [];

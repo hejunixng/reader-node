@@ -1,4 +1,4 @@
-const resUrl = 'http://196.168.0.105:8081';
+const resUrl = 'http://196.168.0.106:8081';
 // 分类
 const category = [
     'Biomedicine',
